@@ -8,7 +8,9 @@ const Nav = () => {
         {name:"Contact"}
        ];
   return (
-    <div>Nav</div>
+    <div>
+        
+    </div>
   )
 }
 
