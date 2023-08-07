@@ -1,9 +1,16 @@
 /** @format */
 
 import React from "react";
-import { AiOutlineClose, AiOutlineMenu, AiOutlineSearch } from "react-icons/ai";
-import { BsFillCartFill } from "react-icons/bs";
+import {
+  AiOutlineMenu,
+  AiOutlineSearch,
+  AiOutlineClose,
+  AiFillTag,
+} from "react-icons/ai";
+import { BsFillCartFill, BsFillSaveFill } from "react-icons/bs";
 import { TbTruckDelivery } from "react-icons/tb";
+import { FaUserFriends, FaWallet } from "react-icons/fa";
+import { MdFavorite, MdHelp } from "react-icons/md";
 
 const Nav = () => {
   return (
@@ -50,25 +57,22 @@ const Nav = () => {
               <TbTruckDelivery size={25} className='mr-4' /> Orders
             </li>
             <li className='text-xl py-4 flex'>
-              <TbTruckDelivery size={25} className='mr-4' /> Orders
+              <MdFavorite size={25} className='mr-4' /> Favorites
             </li>
             <li className='text-xl py-4 flex'>
-              <TbTruckDelivery size={25} className='mr-4' /> Orders
+              <FaWallet size={25} className='mr-4' /> Wallet
             </li>
             <li className='text-xl py-4 flex'>
-              <TbTruckDelivery size={25} className='mr-4' /> Orders
+              <MdHelp size={25} className='mr-4' /> Help
             </li>
             <li className='text-xl py-4 flex'>
-              <TbTruckDelivery size={25} className='mr-4' /> Orders
+              <AiFillTag size={25} className='mr-4' /> Promotions
             </li>
             <li className='text-xl py-4 flex'>
-              <TbTruckDelivery size={25} className='mr-4' /> Orders
+              <BsFillSaveFill size={25} className='mr-4' /> Best Ones
             </li>
             <li className='text-xl py-4 flex'>
-              <TbTruckDelivery size={25} className='mr-4' /> Orders
-            </li>
-            <li className='text-xl py-4 flex'>
-              <TbTruckDelivery size={25} className='mr-4' /> Orders
+              <FaUserFriends size={25} className='mr-4' /> Invite Friends
             </li>
           </ul>
         </nav>
